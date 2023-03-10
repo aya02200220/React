@@ -1,0 +1,10 @@
+html {
+  background-color: rgb(28, 28, 28);
+}
+.container {
+  padding: 50px 70px;
+}
+.card-Container {
+  display: flex;
+  justify-content: space-around;
+}
