@@ -6,6 +6,8 @@ import data from "./components/card-data.json";
 function App() {
   const cardElements = data.map((ele, index) => <Card key={index} {...ele} />);
 
+  // console.log("kakunin", cardElements);
+
   return (
     <div className="container">
       <div className="card-Container">{cardElements}</div>;
