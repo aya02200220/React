@@ -1,0 +1,16 @@
+.git-container {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  button {
+    height: 40px;
+    width: 90px;
+  }
+}
+img {
+  height: 200px;
+}
